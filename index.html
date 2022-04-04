@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>My Day</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="custom slideshow page for jessica">
+   <meta name="author" content="graham stockton">
+   <link rel="stylesheet" href="index.css">
+</head> 
+
+<body>
+
+<div id="main-header">
+    <h1>My Day</h1>
+    <p>Here is my day in pictures ❤️</p>    
+</div>
+
+<div id="slideshow-container">
+    <div><img src="" id="main-image"></div>
+    <figcaption id="main-image-caption"></figcaption>
+    <div id="button-container">
+        <button id="previous" onclick="previous()">Previous</button>
+        <button id="play" onclick="startInterval()">Play</button>
+        <button id="pause" onclick="endInterval()">Pause</button>
+        <button id="next" onclick="next()">Next</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
