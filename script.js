@@ -64,6 +64,14 @@ const windowOnLoad = () => {
     document.getElementById("main-image").src = images[position];
     document.getElementById("main-image-caption").innerText = blurbs[position];
     startInterval();
+
+    // preload images
+    var imageHolding = [];
+    for (let i in images) {
+        var img = new Image();
+        img.src = images[i];
+        imageHolding.push(img);
+    }
 }
 
 window.onload = windowOnLoad;
