@@ -4,6 +4,10 @@ const images = [
     "brownie.jpg",
     "websiteWork.jpg",
     "benee.jpg",
+    "fri.jpg",
+    "lunch.jpg",
+    "league.png",
+    "work2.jpg",
     "pengu.gif"
 ];
 
@@ -13,6 +17,10 @@ const blurbs = [
     "To go with my coffee, I had crownie, which I made last night.",
     "Once I had everything set up, I started work. I worked on this website, as well as some light homework.",
     "While I was working, I listened to this album by Benee a couple times. It's a good vibe <3.",
+    "At 4pm, I had a photo shoot for the FRI computational materials group. Chai hasn't sent me that photo yet, so here's an old one of my group.",
+    "lonch :3",
+    "After lunch, I played some league with jas and lost twice. Was a nice time even though we got stomped",
+    "After that I did my cs homework and waited for you to get home from your movie.",
     "That's all I've got! Hope you liked it <3"
 ];
 
